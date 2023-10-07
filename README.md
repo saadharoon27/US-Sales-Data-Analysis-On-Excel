@@ -8,6 +8,10 @@ _A client has shared a sales dataset and seeks insights, including sales trends 
 
 ## Table of Contents
 - [Business Problem](#business-problem)
+- [Data Source](#data-source)
+- [Data Overview](#data-overview)
+- [Method](#method)
+- [Quick Glance At The Dashboard](#quick-glance-at-the-dashboard)
 
 ## Business Problem
 **Business Problem Statement:** <br>
@@ -27,4 +31,10 @@ A client has provided their sales dataset and requested insights from the data, 
 | **Product Name**               	  | Name of the ordered product|
 | **Sales**     	                  | The price at which the product was sold|
 | **Quantity**    	                | Number of quantities the customer ordered of that product|
-| **Profit**               	        | How much did the firm made in that transaction|
+| **Profit**               	        | How much did the firm make in that transaction|
+
+## Method
+- Exploratory data analysis _(EDA)_
+
+## Quick Glance At The Dashboard
+![dashboard](Assets/Glance.png)
