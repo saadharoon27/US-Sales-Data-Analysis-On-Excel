@@ -13,6 +13,8 @@ _A client has shared a sales dataset and seeks insights, including sales trends 
 - [Method](#method)
 - [Quick Glance At The Dashboard](#quick-glance-at-the-dashboard)
 - [Data Cleaning and Manipulation](#data-cleaning-and-manipulation)
+- [Dashboarding](#dashboarding)
+- [Slicers](#slicers)
   
 ## Business Problem
 **Business Problem Statement:** <br>
@@ -66,23 +68,27 @@ To create efficient pivot tables and dashboards with the provided data, the init
   - Established a new pivot table to generate an area chart. This chart visually represents the cumulative sales values for each month, offering a clear and organized depiction of the sales trends over time.
   - Inserted _‘Month’_ in the rows field, and Sum of Values in **Values field**.
   - To view data for specific years, such as only 2014 or 2017, a slicer was added to the 'Year' column. This slicer allows for easy filtering and selection of data for the desired year, simplifying the data analysis process.
-  - Added an area chart and customised it to personal satisfaction.
+  - Added an **area chart** and customised it to personal satisfaction.
 
 - **Top5Customers Sheet:**
   - A new pivot table was created on the _'Top5Customers'_ sheet to visualize the company's **top five customers** responsible for generating the **highest profits**. This pivot table serves as the foundation for creating a pie chart that effectively illustrates the contribution of these key customers to the company's profitability.
   - Organized the data by placing _'Customer Name'_ in the Rows field and _'Sum of Profit'_ in the **Values field**. To focus on the most profitable customers, arranged the values in descending order based on their profits and then filtered to display only the **top 5 customers** in terms of profitability. This allows to pinpoint and analyse the highest contributors to the company's profits.
-  - Inserted a pie chart and customised it to make it visually appealing.
+  - Inserted a **pie chart** and customised it to make it visually appealing.
 
 - **SalesByState Sheet:**
   - A pivot table titled _"SalesByState"_ was created with the purpose of visually representing the sum of sales. In the rows field column _‘State’_ was entered and _‘Sum of Values’_ was inserted in **Values field**.
-  - To create a map chart from the pivot table, the data was first duplicated into another cell. Then, a map chart was inserted using this copied data because map charts cannot be directly generated from pivot tables. 
+  - To create a map chart from the pivot table, the data was first duplicated into another cell. Then, a **map chart** was inserted using this copied data because map charts cannot be directly generated from pivot tables. 
   - The map chart was then customised to the linking.
 
 - **CustomerCount Sheet:**
   - Pivot table does not have a built-in option to count the unique number of customers on a year-to-year basis, so to tackle that problem the _‘Customer Name’_ and _‘Year’ column_ was copied into a new sheet _(CustomerCount)_.
-  - The _‘Customer Name’ column_ was then cleaned of duplicates, so to count only the unique number of customers in different years.
+  - The _‘Customer Name’ column_ was then cleaned of duplicates, so as to count only the unique number of customers in different years.
   - The data was converted into a table so a pivot chart can be plotted.
   - The pivot chart was plotted in the same sheet as it was dedicated to address that specific problem only.
-  - A Bar chart was used to visualise the data, and then customised to make it visually appealing and representable.
+  - A **Bar chart** was used to visualise the data, and then customised it to make it visually appealing and representable.
  
+## Dashboarding
 
+- **Dashboard Sheet:**
+  - Consolidated all the created graphs into a single location to improve interactivity. This arrangement allows for a more streamlined and interactive presentation of data insights, making it easier to draw conclusions and gain a comprehensive view of the information.
+  - A _slicer_ was added based on _product categories_. This feature allows for easy filtering and analysis of data, enhancing the ability to focus on specific product categories and gain valuable insights from the dataset.
