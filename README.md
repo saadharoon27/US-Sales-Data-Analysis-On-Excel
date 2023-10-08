@@ -88,8 +88,8 @@ To create efficient pivot tables and dashboards with the provided data, the init
   - A **Bar chart** was used to visualise the data, and then customised it to make it visually appealing and representable.
  
 ## Dashboarding
+- Consolidated all the created graphs into a single location to improve interactivity. This arrangement allows for a more streamlined and interactive presentation of data insights, making it easier to draw conclusions and gain a comprehensive view of the information.
 
-- **Dashboard Sheet:**
-  - Consolidated all the created graphs into a single location to improve interactivity. This arrangement allows for a more streamlined and interactive presentation of data insights, making it easier to draw conclusions and gain a comprehensive view of the information.
-  - A _slicer_ was added based on _product categories_. This feature allows for easy filtering and analysis of data, enhancing the ability to focus on specific product categories and gain valuable insights from the dataset.
-  - Lastly, established connections between all the slicers and the various visual elements present. This linkage ensures that whenever filters are applied through the slicers, the resultant changes are seamlessly reflected across all associated graphs and visual representations.
+## Slicers
+- A _slicer_ was added based on _product categories_. This feature allows for easy filtering and analysis of data, enhancing the ability to focus on specific product categories and gain valuable insights from the dataset.
+- Lastly, established connections between all the slicers and the various visual elements present. This linkage ensures that whenever filters are applied through the slicers, the resultant changes are seamlessly reflected across all associated graphs and visual representations.
