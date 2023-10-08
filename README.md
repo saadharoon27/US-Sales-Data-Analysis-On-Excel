@@ -53,7 +53,7 @@ To create efficient pivot tables and dashboards with the provided data, the init
 - 5.	**Month Column:** A new column was added, _'Month'_, to enable data visualization in monthly terms. The data underwent a transformation process using the **TEXT() function** to extract the month. Subsequently, this function was further refined to display the month in a more user-friendly manner using **'mmm'**, in format text argument. This adjustment enhances the clarity of the data representation.
 - 6.	**Year Column:** A new column was added, _'Year'_, to enable data visualization in yearly terms using the **YEAR() function**.
 
-**Pivot Tables and Charts:**
+**Worksheets, Pivot Tables and Charts:**
 
 - **SalesByCategory Sheet:**
   - A pivot table titled _"SalesByCategory"_ was created with the purpose of visually representing the sum of sales figures of different sub–categories. In the rows field column _‘Sub–Category’_ was entered and _‘Sales’_ was inserted in the **Values field**. The data was then sorted in descending order in terms of the sum of sales, so a funnel chart could be created.
